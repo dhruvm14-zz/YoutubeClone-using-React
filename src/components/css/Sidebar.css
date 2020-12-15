@@ -1,0 +1,19 @@
+.sidebar{
+    flex: 0.18;
+    border-right: 1px solid lightgray;
+    overflow: scroll;
+    height: 800px;
+}
+
+.sidebar > hr{
+    background-color: lightgray;
+    border: 0;
+    height: 1px;
+    margin: 10px 0;
+}
+.sidebar__subTitle{
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px 30px;
+}

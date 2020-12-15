@@ -1,0 +1,28 @@
+.recommendedVideos{
+    flex: 0.82;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    overflow: scroll;
+    height: 800px;
+}
+
+.recommendedVideos > h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.recommendedVideos__videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommendedVideos > hr{
+    border: none;
+    height: 5px;
+    background-color: lightgray;
+    margin-bottom: 30px;
+}
+.recommended__posts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
